@@ -18,21 +18,21 @@ Also supports generating **RSA-4096 keypairs** for hybrid-encryption demonstrati
 
 𝐄𝐍𝐂𝐑𝐘𝐏𝐓 𝐀 𝐅𝐈𝐋𝐄:
 
-python file.py encrypt <input_file> <output_file>
+python3 file.py encrypt <input_file> <output_file>
 
 Example:
-python file.py encrypt secret.txt secret.enc
+python3 file.py encrypt secret.txt secret.enc
 
 𝐃𝐄𝐂𝐑𝐘𝐏𝐓 𝐀 𝐅𝐈𝐋𝐄:
 
-python file.py decrypt <encrypted_file> <output_file>
+python3 file.py decrypt <encrypted_file> <output_file>
 
 Example:
-python file.py decrypt secret.enc decrypted.txt
+python3 file.py decrypt secret.enc decrypted.txt
 
 𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄 𝐑𝐒𝐀 𝟒𝟎𝟗𝟔-𝐁𝐈𝐓 𝐊𝐄𝐘𝐏𝐀𝐈𝐑:
 
-python file.py genkey <private_key.pem> <public_key.pem>
+python3 file.py genkey <private_key.pem> <public_key.pem>
 
 Example:
-python file.py genkey my_private.pem my_public.pem
+python3 file.py genkey my_private.pem my_public.pem
